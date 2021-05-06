@@ -1,7 +1,5 @@
-// 2090 Short (15-20 minute) Pair programming exercise, refactoring code to use SRP
-
-// Refactor the content of the function bakeAndSellPies, into separate functions
-// that follow the Single Responsibility Principle.
+// Refactor the content of the function bakeAndSellPies, into separate
+// functions that follow the Single Responsibility Principle.
 
 const applePieRecipe = [
   { name: "pie crust", cost: 10.00, quantity: 1 },
