@@ -42,10 +42,11 @@ function bakeAndSellPies(pieType, pieQuantity, profitMargin) {
     console.log(combiningMsg)
     console.log(`Baked pie ${i + 1}! `)
   }
-
+  
+  const initialVal = 0;
   const costOfPie = ingredients.reduce((prev, current) => {
     return prev + current.cost;
-  }, ingredients[0].cost);
+  }, initialVal);
   console.log(`Cost per pie: ${costOfPie}`)
   totalCost = costOfPie * pieQuantity;
 
